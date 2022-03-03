@@ -28,7 +28,7 @@
         href="{{ url_for('static',filename='gitbook/plugins/gitbook-plugin-highlight/website.css') }}">
     <link rel="stylesheet"
         href="{{ url_for('static',filename='gitbook/plugins/gitbook-plugin-fontsettings/website.css') }}">
-    <link rel="next" href="/Chapter1" />
+    <!-- <link rel="next" href="/Chapter1" /> -->
     <link href="././static/gitbook/nav/css/index.css" rel="stylesheet" />
     <script type="text/javascript" src="././static/gitbook/nav/js/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="././static/gitbook/nav/js/index.js"></script>
@@ -120,25 +120,9 @@
         </div>
 
         <div class="book-body">
-            <div class="body-inner">
-                <div class="book-header" role="navigation">
-                    <!-- Actions Left -->
-                    <!-- Title -->
-                    <h1>
-                        <i class="fa fa-circle-o-notch fa-spin"></i>
-                        <a href="./">MHF4U Advanced Function Online Book</a>
-                    </h1>
-                </div>
-                <div class="page-wrapper" tabindex="-1" role="main">
-                    <div class="page-inner">
-                        <section class="normal" id="section-"> {% block content %} {% endblock %} </section>
-                    </div>
-                </div>
-            </div>
-            <a href="./c01/index.html" class="navigation navigation-next navigation-unique"
-                aria-label="Next page: 关于Flask">
-                <i class="fa fa-angle-right"></i>
-            </a>
+            {% block content %}
+
+            {% endblock %}
         </div>
     </div>
     <script src="{{ url_for('static',filename='gitbook/app.js') }}"></script>

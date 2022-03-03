@@ -1,27 +1,39 @@
 <!--
  * @Author: BDFD
  * @Date: 2022-03-02 15:17:55
- * @LastEditTime: 2022-03-02 16:27:27
+ * @LastEditTime: 2022-03-03 12:41:45
  * @LastEditors: BDFD
  * @Description: 
- * @FilePath: \3.4-E-book_Template-Python_Heroku_Deploy\templates\intro_page.html
+ * @FilePath: \EBook01_MHF4U\templates\intro_page.html
 -->
 {% extends "./layout/base.html" %}
-
 {% block content %}
-<h1 id="认识123">认识123</h1>
-<h3 id="通过对比来了解flask：">
-    通过对比来了解Flask：</h3>
-<h3 id="django：">Django：</h3>
-<p> Python
-    Web框架里比较有名当属Django，Django功能全面，它提供一站式解决方案，集成了MVT（Model-View-Template）和ORM，以及后台管理。但是缺点也很明显，它偏重。就像是一个装潢好的房子，它提供好了你要用的东西，直接拿来用就可以。
-</p>
-<p> <img src="images/装潢效果图.jpg" alt="Django的特点"></p>
-<h3 id="flask：">Flask：</h3>
-<p> Flask相对于Django而言是轻量级的Web框架。和Django不同，Flask轻巧、简洁，通过定制第三方扩展来实现具体功能。
-</p>
-<p> 可定制性，通过扩展增加其功能，这是Flask最重要的特点。Flask的两个主要核心应用是Werkzeug和模板引擎Jinja。
-</p>
-<p>哦哦哦</p>
-<p> <img src="images/简装图.jpg" alt="Django的特点"></p>
+<div class="body-inner">
+    <div class="book-header" role="navigation">
+        <!-- Actions Left -->
+        <!-- Title -->
+        <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i>
+            <a href="./">MHF4U Advanced Function Online Book</a>
+        </h1>
+    </div>
+    <div class="page-wrapper" tabindex="-1" role="main">
+        <div class="page-inner">
+            <section class="normal" id="section-">
+                <h1>认识123</h1>
+                <h3>
+                    通过对比来了解Flask：</h3>
+                <h3>Django：</h3>
+                <p> Python
+                    Web框架里比较有名当属Django，Django功能全面，它提供一站式解决方案，集成了MVT（Model-View-Template）和ORM，以及后台管理。但是缺点也很明显，它偏重。就像是一个装潢好的房子，它提供好了你要用的东西，直接拿来用就可以。
+                </p>
+                <p> <img src="{{ url_for('static',filename='images/Course Description.png') }}" alt=""></p>
+                <p> <img src="{{ url_for('static',filename='images/Nelson Advanced Function 12.jpg') }}" alt=""></p>
+            </section>
+        </div>
+    </div>
+</div>
+<a href="./Chapter1" class="navigation navigation-next navigation-unique" aria-label="Next page: Chapter1">
+    <i class="fa fa-angle-right"></i>
+</a>
 {% endblock %}
