@@ -1,7 +1,7 @@
 <!--
  * @Author: BDFD
  * @Date: 2022-02-03 15:41:35
- * @LastEditTime: 2022-03-03 11:52:14
+ * @LastEditTime: 2022-03-03 12:04:06
  * @LastEditors: BDFD
  * @Description:
  * @FilePath: \EBook01_MHF4U\README.md
@@ -11,9 +11,9 @@
 
 <img height="27" src="https://img.shields.io/badge/test 1 -Level  Beginner-green.svg?&style=for-the-badge&logo=TheSparksFoundation&logoColor=blue"/>
 
-**Author,Pulisher Info:** Advanced Functions Nelson
+**Book Reference Info:** Advanced Functions Nelson
 
-**Book Reference Ino:** ISBN: 0176374434 / 978176374433
+**Author,Pulisher Info:** Chris Kirkpatrick, Kristina Farentino, Susanne Trew
 
 **Include Main Subjuect:** Fundamental, Mathmatics
 
