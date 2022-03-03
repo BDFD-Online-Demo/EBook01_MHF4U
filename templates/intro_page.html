@@ -1,7 +1,7 @@
 <!--
  * @Author: BDFD
  * @Date: 2022-03-02 15:17:55
- * @LastEditTime: 2022-03-03 12:41:45
+ * @LastEditTime: 2022-03-03 13:34:42
  * @LastEditors: BDFD
  * @Description: 
  * @FilePath: \EBook01_MHF4U\templates\intro_page.html
@@ -20,15 +20,24 @@
     <div class="page-wrapper" tabindex="-1" role="main">
         <div class="page-inner">
             <section class="normal" id="section-">
-                <h1>认识123</h1>
-                <h3>
-                    通过对比来了解Flask：</h3>
-                <h3>Django：</h3>
-                <p> Python
-                    Web框架里比较有名当属Django，Django功能全面，它提供一站式解决方案，集成了MVT（Model-View-Template）和ORM，以及后台管理。但是缺点也很明显，它偏重。就像是一个装潢好的房子，它提供好了你要用的东西，直接拿来用就可以。
+                <h1 style="margin-bottom: 0px;">认识MHF4U Advanced Function</h1>
+                <div align="center"><img src="{{ url_for('static',filename='images/Nelson Advanced Function 12.jpg') }}"
+                        alt="Book Front Page"></div>
+                <p> This course extends students’ experience with functions. Students will investigate the properties of
+                    polynomial, rational, logarithmic, and trigonometric functions; develop techniques for combining
+                    functions; broaden their understanding of rates of change; and develop facility in applying these
+                    concepts and skills. Students will also refine their use of the mathematical processes necessary for
+                    success in senior mathematics. This course is intended both for students taking the Calculus and
+                    Vectors course as a prerequisite for a university program and for those wishing to consolidate their
+                    understanding of mathematics before proceeding to any one of a variety of university programs.
                 </p>
-                <p> <img src="{{ url_for('static',filename='images/Course Description.png') }}" alt=""></p>
-                <p> <img src="{{ url_for('static',filename='images/Nelson Advanced Function 12.jpg') }}" alt=""></p>
+                <p>
+                    Prerequisite: Functions, Grade 11, University Preparation, or Mathematics for College Technology,
+                    Grade 12, College Preparation
+                </p>
+                <div align="center"> <img src="{{ url_for('static',filename='images/Course Description.png') }}"
+                        alt="Course Description">
+                </div>
             </section>
         </div>
     </div>
