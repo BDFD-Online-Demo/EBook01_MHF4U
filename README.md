@@ -1,33 +1,39 @@
 <!--
  * @Author: BDFD
  * @Date: 2022-02-03 15:41:35
- * @LastEditTime: 2022-03-02 18:06:58
+ * @LastEditTime: 2022-03-03 11:52:14
  * @LastEditors: BDFD
  * @Description:
- * @FilePath: \3.4-E-book_Template-Python_Heroku_Deploy\README.md
+ * @FilePath: \EBook01_MHF4U\README.md
 -->
 
-# <a href="https://github.com/bdfd"><img height=40 src="https://cdn.jsdelivr.net/gh/bdfd/Personal_Image_Repo/4.Stamp/BDFD_Stamp.png" alt="GitHub Followers" /></a>E-Book Title
+# <a href="https://github.com/bdfd"><img height=40 src="https://cdn.jsdelivr.net/gh/bdfd/Personal_Image_Repo/4.Stamp/BDFD_Stamp.png" alt="GitHub Followers" /></a>MHF4U-Advanced Function
 
 <img height="27" src="https://img.shields.io/badge/test 1 -Level  Beginner-green.svg?&style=for-the-badge&logo=TheSparksFoundation&logoColor=blue"/>
-<img height="27" src="https://img.shields.io/badge/test 2 -Level  Intermediate-orange.svg?&style=for-the-badge&logo=TheSparksFoundation&logoColor=blue"/>
-<img height="27" src="https://img.shields.io/badge/test 3-Level  Advanced-red.svg?&style=for-the-badge&logo=TheSparksFoundation&logoColor=blue"/>
 
-**Author,Pulisher Info:** Jupyter / JupyterLab, GitHub,
+**Author,Pulisher Info:** Advanced Functions Nelson
 
-**Include Main Subjuect:** Machine Learning, Python
+**Book Reference Ino:** ISBN: 0176374434 / 978176374433
 
-**Related Projects:** ABC Project Name
+**Include Main Subjuect:** Fundamental, Mathmatics
 
-> E-book Description :
+**Prerequisite:** Grade 11 Functions
 
-- Predict the percentage of an student based on the no. of study hours. <br>
-- This is a simple linear regression task as it involves just 2 variables.<br>
-- You can use R, Python, SAS Enterprise Miner or any other tool.<br>
-- What will be predicted score if a student studies for 9.25 hrs/ day? <br>
-- Here is the dataset :
-  <a href="Dataset Url">Dataset.csv</a><br><br>
-  > Reference:
+> The courses enlisted as follows:
+
+- [x] **Chapter 1: Functions: Characteristics and Properties**
+- [x] **Chapter 2: Functions: Understanding Rates of Change**
+- [x] **Chapter 3: Polynomial Functions**
+- [x] **Chapter 4: Polynomial Equations and Inequalities**
+- [x] **Chapter 5: Rational Functions, Equations, and Inequalities**
+- [x] **Chapter 6: Trigonometric Functions**
+- [x] **Chapter 7: Trigonometric Identities and Equations**
+- [x] **Chapter 8: Exponential and Logarithmic Functions**
+- [x] **Chapter 9: Combinations of Functions**
+      <br />
+- Here is the Textbook Download Link :
+  > <a href="https://teachers.wrdsb.ca/ruhnke/files/2017/09/Nelson-Advanced-Functions-12-Textbook.pdf">Textbook Download</a><br><br>
+- Other Reference:
   > <a href="Other Useful Url Link"> Other Useful Link</a>
   > Demo Link:
   > <a href="E-book Useful Url Link">E-book Url Link</a>
