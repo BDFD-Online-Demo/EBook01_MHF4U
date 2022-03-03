@@ -1,7 +1,7 @@
 '''
 Author: BDFD
 Date: 2022-02-03 15:32:30
-LastEditTime: 2022-03-03 12:17:10
+LastEditTime: 2022-03-03 13:53:57
 LastEditors: BDFD
 Description: 
 FilePath: \EBook01_MHF4U\server.py
@@ -24,31 +24,31 @@ def index():
 def Chapter1():
   return render_template('c01/index.html')
 
-@app.route('/Chapter1/01')
+@app.route('/Chapter1/s01')
 def Chapter1_1():
   return render_template('c01/s01.html')
 
-@app.route('/Chapter1/02')
+@app.route('/Chapter1/s02')
 def Chapter1_2():
   return render_template('c01/s02.html')
 
-@app.route('/Chapter1/03')
+@app.route('/Chapter1/s03')
 def Chapter1_3():
   return render_template('c01/s03.html')
 
-@app.route('/Chapter1/04')
+@app.route('/Chapter1/s04')
 def Chapter1_4():
   return render_template('c01/s04.html')
 
-@app.route('/Chapter1/05')
+@app.route('/Chapter1/s05')
 def Chapter1_5():
   return render_template('c01/s05.html')
 
-@app.route('/Chapter1/06')
+@app.route('/Chapter1/s06')
 def Chapter1_6():
   return render_template('c01/s06.html')
 
-@app.route('/Chapter1/07')
+@app.route('/Chapter1/s07')
 def Chapter1_7():
   return render_template('c01/s07.html')
 
